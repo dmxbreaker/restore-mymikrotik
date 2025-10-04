@@ -119,6 +119,24 @@ restore-mymikrotik/
 /ip/firewall/mangle/print
 ```
 
+
+
+---
+
+## 🔍 Post-Install Verification (Opsional)
+
+Gunakan perintah berikut untuk memastikan konfigurasi sudah aktif:
+
+```rsc
+/interface/bridge/print
+/ip/address/print
+/ip/route/print
+/ip/firewall/nat/print
+/ip/firewall/mangle/print
+/routing/table/print
+:put [:resolve "google.com"]
+
+```
 ---
 
 ✍️ **Maintainer:** [dmxbreaker](https://github.com/dmxbreaker)  
