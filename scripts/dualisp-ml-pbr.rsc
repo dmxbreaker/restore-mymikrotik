@@ -1,16 +1,10 @@
-# 🧩 dualisp-ml-pbr.rsc  
-### RouterOS 7.20 - hAP ax²  
-### Dual ISP + Policy Based Routing (PBR)  
-### Default ISP2 (Fastlink), Mobile Legends via ISP1 (Telkom)  
-### Asumsikan DHCP, DNS, NTP, NAT dasar sudah dikonfigurasi (pre-install manual)
-
-```rsc
 ##########################################
 # RouterOS 7.20 - hAP ax²
 # Dual ISP + Policy Based Routing (PBR)
 # Default ISP2 (Fastlink), ML via ISP1 (Telkom)
 # Assumes DHCP, DNS, NTP, NAT basic already configured
 ##########################################
+
 
 # === BRIDGE LAN ===
 /interface/bridge
