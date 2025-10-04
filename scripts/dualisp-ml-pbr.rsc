@@ -78,4 +78,3 @@ add chain=prerouting src-address=10.10.0.0/12 connection-mark=!ml_conn action=ma
 
 # === FINAL LOG ===
 :log info "Dual ISP + PBR applied. Default: ISP2 (Fastlink), ML: ISP1 (Telkom)."
-```
