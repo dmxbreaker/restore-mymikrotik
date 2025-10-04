@@ -60,7 +60,8 @@ Jika berhasil reply ✅ maka router siap menjalankan perintah *fetch*.
 Jalankan perintah berikut langsung di terminal MikroTik:  
 
 ```rsc
-/tool fetch url="https://raw.githubusercontent.com/dmxbreaker/restore-mymikrotik/main/scripts/dualisp-ml-pbr.rsc" mode=https dst-path=dualisp-ml-pbr.rsc; /import file=dualisp-ml-pbr.rsc
+/tool fetch url="https://raw.githubusercontent.com/dmxbreaker/restore-mymikrotik/main/scripts/dualisp-ml-pbr.rsc" mode=https dst-path=dualisp-ml-pbr.rsc;
+/import file=dualisp-ml-pbr.rsc
 ```
 
 ---
